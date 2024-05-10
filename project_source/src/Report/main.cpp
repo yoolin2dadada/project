@@ -12,9 +12,9 @@ int main(int argc, char *argv[])
         return -1;
     }
     QString qsStyleSheet = QLatin1String(file.readAll());
+    a.setStyleSheet(qsStyleSheet);
 
     CReport w;
-    w.setStyleSheet(qsStyleSheet);
     w.show();
 
     return a.exec();

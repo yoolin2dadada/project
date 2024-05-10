@@ -1,3 +1,95 @@
 CReport {
+	background-color : rgb(242, 242, 242);
+}
+
+CReportMenuDlg {
 	background-color : rgb(255, 255, 255);
+}
+
+CReportBottomMenu {
+	background-color : rgb(214, 214, 214);
+}
+
+/*pushbutton image*/
+/*CReport*/
+QPushButton#pushButton_yoolin{
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	border-image: url(images/click.png);
+	background: none;
+}
+
+QPushButton#pushButton_yoolin:hover{
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	border-image: url(images/click_hover.png);
+	background: none;
+}
+
+/*CReportBottomMenuDlg*/
+QPushButton#pushButton_close{
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	border-image: url(images/close.png);
+	background: none;
+}
+
+QPushButton#pushButton_close:hover{
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	border-image: url(images/close_hover.png);
+	background: none;
+}
+
+/*CReportMenuDlg*/
+QPushButton#pushButton_pdf{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	border-image: url(images/pdf.png);
+	background: none;
+}
+
+QPushButton#pushButton_pdf:hover{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	border-image: url(images/pdf_hover.png);
+	background: none;
+}
+
+QPushButton#pushButton_parse{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	border-image: url(images/parse.png);
+	background: none;
+}
+
+QPushButton#pushButton_parse:hover{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	border-image: url(images/parse_hover.png);
+	background: none;
+}
+
+QPushButton#pushButton_org{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	border-image: url(images/organization.png);
+	background: none;
+}
+
+QPushButton#pushButton_org:hover{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	border-image: url(images/organization_hover.png);
+	background: none;
 }

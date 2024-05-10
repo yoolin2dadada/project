@@ -17,6 +17,11 @@ public:
 	virtual ~CReportMenuDlg();
 
 private:
+	//event
+	void showEvent(QShowEvent* e);
+	bool event(QEvent* e);
+
+private:
 	Ui::CReportMenuDlgClass ui;
 };
 
