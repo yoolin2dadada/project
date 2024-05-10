@@ -32,12 +32,18 @@
     <ClCompile Include="..\..\src\Report\ReportMenuDlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\Report\ReportBottomMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\..\src\Report\Report.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="..\..\src\Report\ReportMenuDlg.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\Report\ReportBottomMenu.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
@@ -51,6 +57,9 @@
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="..\..\src\Report\ReportMenuDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\..\src\Report\ReportBottomMenu.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

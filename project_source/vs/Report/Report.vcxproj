@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\src\Report\main.cpp" />
     <ClCompile Include="..\..\src\Report\Report.cpp" />
+    <ClCompile Include="..\..\src\Report\ReportBottomMenu.cpp" />
     <ClCompile Include="..\..\src\Report\ReportMenuDlg.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -31,10 +32,14 @@
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="..\..\src\Report\Report.ui" />
+    <QtUic Include="..\..\src\Report\ReportBottomMenu.ui" />
     <QtUic Include="..\..\src\Report\ReportMenuDlg.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\..\src\Report\ReportMenuDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\src\Report\ReportBottomMenu.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D77DD6B6-4F4C-4F6C-98B1-172C27764AA0}</ProjectGuid>
