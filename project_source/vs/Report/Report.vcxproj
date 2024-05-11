@@ -19,10 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\Report\common\ReportDlgWidget.cpp" />
+    <ClCompile Include="..\..\src\Report\common\ReportPushButton.cpp" />
     <ClCompile Include="..\..\src\Report\main.cpp" />
+    <ClCompile Include="..\..\src\Report\popup\ReportScheduleDlg.cpp" />
     <ClCompile Include="..\..\src\Report\Report.cpp" />
     <ClCompile Include="..\..\src\Report\ReportBottomMenu.cpp" />
+    <ClCompile Include="..\..\src\Report\ReportManager.cpp" />
+    <ClCompile Include="..\..\src\Report\ReportManagerPINDlg.cpp" />
     <ClCompile Include="..\..\src\Report\ReportMenuDlg.cpp" />
+    <ClCompile Include="..\..\src\Report\ReportToday.cpp" />
+    <ClCompile Include="..\..\src\Report\ReportTopMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\..\src\Report\Report.h" />
@@ -31,15 +38,42 @@
     <QtRcc Include="..\..\src\Report\Report.qrc" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="..\..\src\Report\common\ReportDlgWidget.ui" />
+    <QtUic Include="..\..\src\Report\popup\ReportScheduleDlg.ui" />
     <QtUic Include="..\..\src\Report\Report.ui" />
     <QtUic Include="..\..\src\Report\ReportBottomMenu.ui" />
+    <QtUic Include="..\..\src\Report\ReportManager.ui" />
+    <QtUic Include="..\..\src\Report\ReportManagerPINDlg.ui" />
     <QtUic Include="..\..\src\Report\ReportMenuDlg.ui" />
+    <QtUic Include="..\..\src\Report\ReportToday.ui" />
+    <QtUic Include="..\..\src\Report\ReportTopMenu.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\..\src\Report\ReportMenuDlg.h" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\..\src\Report\ReportBottomMenu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\src\Report\ReportTopMenu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\src\Report\ReportManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\src\Report\ReportManagerPINDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\src\Report\ReportToday.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\src\Report\common\ReportPushButton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\src\Report\common\ReportDlgWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\src\Report\popup\ReportScheduleDlg.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D77DD6B6-4F4C-4F6C-98B1-172C27764AA0}</ProjectGuid>

@@ -21,6 +21,24 @@
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
       <Extensions>ts</Extensions>
     </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{322cfe5a-4315-4fc1-9b2b-e4334d318e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{1e3031dd-4a93-4aa2-aaec-2c92ce4c6158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\common">
+      <UniqueIdentifier>{8990c824-722a-4a63-bf95-859e1176c466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\popup">
+      <UniqueIdentifier>{bcf15435-ab11-44ca-92fa-7d536d769aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\popup">
+      <UniqueIdentifier>{aa82a61e-4a45-490a-8d6b-b7bc9e6dd926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\popup">
+      <UniqueIdentifier>{01bd2254-2300-497d-9dfd-d65ac1c3e87d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\Report\main.cpp">
@@ -35,6 +53,27 @@
     <ClCompile Include="..\..\src\Report\ReportBottomMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\Report\ReportTopMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Report\ReportManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Report\ReportManagerPINDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Report\ReportToday.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Report\common\ReportPushButton.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Report\common\ReportDlgWidget.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Report\popup\ReportScheduleDlg.cpp">
+      <Filter>Source Files\popup</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\..\src\Report\Report.h">
@@ -45,6 +84,27 @@
     </QtMoc>
     <QtMoc Include="..\..\src\Report\ReportBottomMenu.h">
       <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\Report\ReportTopMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\Report\ReportManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\Report\ReportManagerPINDlg.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\Report\ReportToday.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\Report\common\ReportPushButton.h">
+      <Filter>Header Files\common</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\Report\common\ReportDlgWidget.h">
+      <Filter>Header Files\common</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\Report\popup\ReportScheduleDlg.h">
+      <Filter>Header Files\popup</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +121,24 @@
     </QtUic>
     <QtUic Include="..\..\src\Report\ReportBottomMenu.ui">
       <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\..\src\Report\ReportTopMenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\..\src\Report\ReportManager.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\..\src\Report\ReportManagerPINDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\..\src\Report\ReportToday.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\..\src\Report\common\ReportDlgWidget.ui">
+      <Filter>Form Files\common</Filter>
+    </QtUic>
+    <QtUic Include="..\..\src\Report\popup\ReportScheduleDlg.ui">
+      <Filter>Form Files\popup</Filter>
     </QtUic>
   </ItemGroup>
 </Project>
